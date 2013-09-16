@@ -7,7 +7,7 @@ var events = React.createClass({
 
   render: function () {
     return (
-      <h1>{dates.format(this.props.day)}</h1>
+      <div class='events'>This is the event list</div>
     );
   }
 
